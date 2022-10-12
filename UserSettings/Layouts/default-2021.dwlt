@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Animator
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 159
+  controlID: 117
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,12 +68,12 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 14}
+  - {fileID: 17}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &4
@@ -97,9 +97,9 @@ MonoBehaviour:
     height: 432.8
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -121,16 +121,17 @@ MonoBehaviour:
     y: 432.8
     width: 1172.8
     height: 298
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 20}
-  - {fileID: 12}
+  - {fileID: 16}
+  - {fileID: 21}
   - {fileID: 13}
-  m_Selected: 3
-  m_LastSelected: 0
+  - {fileID: 14}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 97
+  controlID: 118
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 46
+  controlID: 119
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,13 +274,189 @@ MonoBehaviour:
     height: 432.8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 18}
   - {fileID: 19}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12373, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Audio Mixer
+    m_Image: {fileID: -3283902137440876849, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 506.4
+    width: 1171.8
+    height: 277
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_MixersTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: -16944
+    m_ExpandedIDs: 12eb343c
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_LayoutStripsOnTop:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 65
+      - 35
+      relativeSizes:
+      - 0.65
+      - 0.35000002
+      minSizes:
+      - 85
+      - 105
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 85
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_LayoutStripsOnRight:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 100
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 3553
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 351.2
+      - 820.8
+      relativeSizes:
+      - 0.3
+      - 0.7
+      minSizes:
+      - 160
+      - 160
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 1172
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_SectionOrder: 00000000030000000100000002000000
+  m_LayoutMode: 1
+  m_SortGroupsAlphabetically: 0
+  m_ShowReferencedBuses: 1
+  m_ShowBusConnections: 0
+  m_ShowBusConnectionsOfSelection: 0
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -309,8 +486,8 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -69104
---- !u!114 &13
+  m_LastSelectedObjectID: -11902
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -344,15 +521,19 @@ MonoBehaviour:
     - {fileID: -5949653595287373957, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
     - {fileID: -8882773076297258057, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
     - {fileID: 966355503560565470, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
+    - {fileID: -2197411811526298377, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
+    - {fileID: -4554703124247989154, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
+    - {fileID: 5456212011978822468, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
+    - {fileID: 13022767894206700, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.4545067
+    - e00: 0.31811678
       e01: 0
       e02: 0
-      e03: 119.71927
+      e03: 163.58656
       e10: 0
-      e11: 0.4545067
+      e11: 0.31811678
       e12: 0
-      e13: 51.62885
+      e13: 91.86946
       e20: 0
       e21: 0
       e22: 1
@@ -393,14 +574,78 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.518
+    - e00: 0.44030002
       e01: 0
       e02: 0
-      e03: 74.999985
+      e03: 80.16
       e10: 0
-      e11: 0.518
+      e11: 0.44030002
       e12: 0
-      e13: 119.37001
+      e13: 145.4145
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.44030002
+      e01: 0
+      e02: 0
+      e03: 80.16
+      e10: 0
+      e11: 0.44030002
+      e12: 0
+      e13: 145.4145
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.48867926
+      e01: 0
+      e02: 0
+      e03: 44.320755
+      e10: 0
+      e11: 0.48867926
+      e12: 0
+      e13: 176.6264
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.55698925
+      e01: 0
+      e02: 0
+      e03: 9.430115
+      e10: 0
+      e11: 0.55698925
+      e12: 0
+      e13: 127.91612
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.5452632
+      e01: 0
+      e02: 0
+      e03: 25.905258
+      e10: 0
+      e11: 0.5452632
+      e12: 0
+      e13: 153.6842
       e20: 0
       e21: 0
       e22: 1
@@ -412,7 +657,7 @@ MonoBehaviour:
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 9100000, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 8729096554340843433, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
+  - m_Target: {fileID: -2197411811526298377, guid: 5f9b77003aecdf545900d83cca17c44d, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -422,10 +667,10 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 0
+  m_CurrentEditor: 1
   m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &14
+    m_SelectedLayerIndex: 1
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -453,14 +698,14 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: -1
+  progressMessageClearTime: 97.4236379
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -599,20 +844,288 @@ MonoBehaviour:
       tracking: 
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - fa551e5dc34144a4d9afb4e1b6d2d6cc
+        - cdded534c84f34d4cad7b40be16bf6dd
+        - 2143e6fa78f62dc4892150cceb137970
+        - afe124a1136d6bb4fb53732b0a2cd1bf
+        - 00000000000000004000000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Externals
+          label: Externals
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Externals\SDF_BasicTrainingStage
+          label: SDF_BasicTrainingStage
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Externals\SDF_BasicTrainingStage\Scenes
+          label: Scenes
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+          label: Stage_BasicTraining.unity
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+            fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+              3\Capstone\Capstone\Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+            projectPath: Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+              3\Capstone\Capstone\ProjectSettings\ProjectSettings.asset
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
-        keys: []
-        values: []
+        keys:
+        - Assets
+        - Assets\Externals
+        - Assets\Externals\SDF_BasicTrainingStage
+        - Assets\Externals\SDF_BasicTrainingStage\Scenes
+        - Packages
+        - ProjectSettings
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Externals
+          label: Externals
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Externals\SDF_BasicTrainingStage
+          label: SDF_BasicTrainingStage
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Externals\SDF_BasicTrainingStage\Scenes
+          label: Scenes
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -641,6 +1154,245 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Externals
+        label: Externals
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Externals\SDF_BasicTrainingStage
+        label: SDF_BasicTrainingStage
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Externals\SDF_BasicTrainingStage\Scenes
+        label: Scenes
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+        label: Stage_BasicTraining.unity
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+          fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+            3\Capstone\Capstone\Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+          projectPath: Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\manifest.json
+          fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+            3\Capstone\Capstone\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Packages\packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\packages-lock.json
+          fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+            3\Capstone\Capstone\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+            3\Capstone\Capstone\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+            3\Capstone\Capstone\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -660,16 +1412,51 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+      fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+        3\Capstone\Capstone\Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+      projectPath: Assets\Externals\SDF_BasicTrainingStage\Scenes\Stage_BasicTraining.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Packages\manifest.json
+      fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+        3\Capstone\Capstone\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+        3\Capstone\Capstone\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+        3\Capstone\Capstone\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
+        3\Capstone\Capstone\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 5 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-10-11T12:46:28.015-06:00
+      updatedTimeString: 2022-10-12T14:27:33.026-06:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-10-11T12:50:27.198-06:00
+      updatedTimeString: 2022-10-12T14:30:03.119-06:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-10-11T12:48:32.495-06:00
+      updatedTimeString: 2022-10-12T14:26:36.506-06:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -39578,7 +40365,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/TWatson-Gamester/Capstone
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -39589,13 +40376,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-10-10T15:13:45.416-06:00
+    updatedTimeString: 2022-10-12T14:27:33.026-06:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-10-10T15:15:06.659-06:00
+    updatedTimeString: 2022-10-12T14:30:03.159-06:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-10-10T15:15:06.627-06:00
+    updatedTimeString: 2022-10-12T14:30:03.119-06:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -39613,13 +40400,13 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
+  repositoryProgressValue: 1
   repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39660,23 +40447,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations/Y Bot/F.Animations/Movement
+    - Assets/Input
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations/Y Bot/F.Animations/Movement
+  - Assets/Input
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\twatson\OneDrive - Neumont College of Computer Science\Year
     3\Capstone\Capstone
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 5c5f0000
-    m_LastClickedID: 24412
-    m_ExpandedIDs: 000000001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000285f00002a5f00003a5f0000
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 3c670000
+    m_LastClickedID: 26428
+    m_ExpandedIDs: 000000002a6300002c6300002e63000030630000326300003463000036630000386300003a630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -39704,7 +40491,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000285f00002a5f0000
+    m_ExpandedIDs: 000000002a6300002c6300002e63000030630000326300003463000036630000386300003a630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -39731,7 +40518,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000ca0000006a0000000a0000070a3000076a30000928900009e89000098890000808900007a8900008c890000a48900007ca30000868900006aa30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -39760,7 +40547,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39801,7 +40588,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39832,9 +40619,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 605e0000
+      m_SelectedIDs: dc660000
       m_LastClickedID: 0
-      m_ExpandedIDs: 08fbffff
+      m_ExpandedIDs: 04fbfffff65e0000265f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -39858,7 +40645,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39891,8 +40678,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -100, y: -25.600006}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -39902,9 +40689,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: -229.4}
+      snapOffset: {x: -141, y: 149}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -39913,7 +40700,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -40083,9 +40870,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.92189777, y: 0.8896296, z: 1.76176}
+    m_Target: {x: -0.4560592, y: -0.4308558, z: -2.1015651}
     speed: 2
-    m_Value: {x: -0.92189777, y: 0.8896296, z: 1.76176}
+    m_Value: {x: -0.4560592, y: -0.4308558, z: -2.1015651}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -40132,13 +40919,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0029722224, y: 0.97654974, z: -0.21490164, w: 0.013492227}
+    m_Target: {x: 0.033007074, y: 0.9653732, z: -0.20940746, w: 0.15214324}
     speed: 2
-    m_Value: {x: 0.0029721884, y: 0.9765386, z: -0.21489918, w: 0.013492072}
+    m_Value: {x: 0.033007074, y: 0.96537316, z: -0.20940745, w: 0.15214323}
   m_Size:
-    m_Target: 1.8803132
+    m_Target: 6.088799
     speed: 2
-    m_Value: 1.8803132
+    m_Value: 6.088799
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -40163,7 +40950,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40255,7 +41042,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
