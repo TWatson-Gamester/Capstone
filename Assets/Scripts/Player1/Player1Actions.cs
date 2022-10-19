@@ -56,7 +56,7 @@ public class Player1Actions : MonoBehaviour
         //Listen to the Animator
         Player1Layer0 = animator.GetCurrentAnimatorStateInfo(0);
 
-        //Standing Attacks
+/*        //Standing Attacks
         if (Player1Layer0.IsTag("Motion"))
         {
             if (Input.GetButtonDown("Fire1"))
@@ -110,7 +110,7 @@ public class Player1Actions : MonoBehaviour
             {
                 animator.SetTrigger("Heavy Kick");
             }
-        }
+        }*/
     }
 
     public void RandomAttack()
@@ -173,5 +173,14 @@ public class Player1Actions : MonoBehaviour
         HeavyReact = true;
         yield return new WaitForSeconds(.3f);
         HeavyReact = false;
+    }
+
+    public void OnHeavyPunch()
+    {
+        if (Player1Layer0.IsTag("Motion"))
+        {
+            animator.SetTrigger("Heavy Punch");
+            Hits = false;
+        }
     }
 }
