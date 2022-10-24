@@ -56,7 +56,7 @@ public class Player2Actions : MonoBehaviour
         //Listen to the Animator
         Player2Layer0 = animator.GetCurrentAnimatorStateInfo(0);
 
-        //Standing Attacks
+/*        //Standing Attacks
         if (Player2Layer0.IsTag("Motion"))
         {
             if (Input.GetButtonDown("Fire1 P2"))
@@ -110,7 +110,7 @@ public class Player2Actions : MonoBehaviour
             {
                 animator.SetTrigger("Heavy Kick");
             }
-        }
+        }*/
     }
 
     public void RandomAttack()
@@ -172,5 +172,41 @@ public class Player2Actions : MonoBehaviour
         HeavyReact = true;
         yield return new WaitForSeconds(.3f);
         HeavyReact = false;
+    }
+
+    public void OnHeavyPunch()
+    {
+        if (Player2Layer0.IsTag("Motion"))
+        {
+            animator.SetTrigger("Heavy Punch");
+            HitsP2 = false;
+        }
+    }
+
+    public void OnLightPunch()
+    {
+        if (Player2Layer0.IsTag("Motion"))
+        {
+            animator.SetTrigger("Light Punch");
+            HitsP2 = false;
+        }
+    }
+
+    public void OnHeavyKick()
+    {
+        if (Player2Layer0.IsTag("Motion"))
+        {
+            animator.SetTrigger("Heavy Kick");
+            HitsP2 = false;
+        }
+    }
+
+    public void OnLightKick()
+    {
+        if (Player2Layer0.IsTag("Motion"))
+        {
+            animator.SetTrigger("Light Kick");
+            HitsP2 = false;
+        }
     }
 }

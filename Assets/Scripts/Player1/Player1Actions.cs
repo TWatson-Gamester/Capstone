@@ -183,4 +183,31 @@ public class Player1Actions : MonoBehaviour
             Hits = false;
         }
     }
+
+    public void OnLightPunch()
+    {
+        if (Player1Layer0.IsTag("Motion"))
+        {
+            animator.SetTrigger("Light Punch");
+            Hits = false;
+        }
+    }
+
+    public void OnHeavyKick()
+    {
+        if (Player1Layer0.IsTag("Motion"))
+        {
+            animator.SetTrigger("Heavy Kick");
+            Hits = false;
+        }
+    }
+
+    public void OnLightKick()
+    {
+        if (Player1Layer0.IsTag("Motion"))
+        {
+            animator.SetTrigger("Light Kick");
+            Hits = false;
+        }
+    }
 }

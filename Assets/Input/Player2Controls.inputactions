@@ -1,14 +1,14 @@
 {
-    "name": "Player1Controls",
+    "name": "Player2Controls",
     "maps": [
         {
-            "name": "Player1Fighting",
-            "id": "7313f439-f2cf-494d-9e6a-b55776bac458",
+            "name": "Fighting",
+            "id": "a1c7270a-fd4d-4928-9790-80afd08c9bbb",
             "actions": [
                 {
                     "name": "HorizontalMove",
                     "type": "Value",
-                    "id": "1c61e66a-c553-4fa9-b8e8-e418aa3a2fa8",
+                    "id": "c0efc001-7c0b-4e3f-9e3c-094585ab6e72",
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
@@ -17,7 +17,7 @@
                 {
                     "name": "VerticalMove",
                     "type": "Value",
-                    "id": "2f0d5e16-24e5-4a91-abfd-41f0fb1067f0",
+                    "id": "2717b7db-cf6a-4c8b-95f9-85d533723e21",
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
@@ -26,7 +26,7 @@
                 {
                     "name": "LightPunch",
                     "type": "Button",
-                    "id": "aa1c444d-dd4c-46c9-8d59-d91b978ef8f6",
+                    "id": "e0324621-168d-4e48-a273-06b67f8a0c1a",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -35,7 +35,7 @@
                 {
                     "name": "HeavyPunch",
                     "type": "Button",
-                    "id": "adce9139-4800-4089-9700-951013a22b04",
+                    "id": "3b7ac9cd-1f45-4cd7-9b1d-649083b27f39",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -44,7 +44,7 @@
                 {
                     "name": "LightKick",
                     "type": "Button",
-                    "id": "b18ac684-7064-44c2-96ce-6b23b439c42b",
+                    "id": "088c982b-ed99-4af6-bd5f-c5646c44665c",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -53,7 +53,7 @@
                 {
                     "name": "HeavyKick",
                     "type": "Button",
-                    "id": "5f7e88bc-23fd-40dc-94b6-52a14068987b",
+                    "id": "5768c740-acf4-4e67-af58-fe4d7f9a6bc6",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -62,7 +62,7 @@
                 {
                     "name": "Block",
                     "type": "Button",
-                    "id": "1d868ef0-f0a5-4e37-aa1b-c9cc75103f55",
+                    "id": "0dd4628a-6dc1-4ee3-b8ad-581db0df0782",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -72,19 +72,8 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "702f58ad-2c5c-48c1-9a79-b4e576304f9c",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Fighting",
-                    "action": "HorizontalMove",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2d3febe5-6fed-4dd7-b370-297b7f8ad43c",
-                    "path": "<Gamepad>/dpad/x",
+                    "id": "15861c21-72ee-45bb-97ca-62ee305d28f0",
+                    "path": "<Gamepad>/leftStick/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "Controller",
@@ -94,7 +83,18 @@
                 },
                 {
                     "name": "",
-                    "id": "e9557af1-84af-45b5-927a-a5e53e052c37",
+                    "id": "b86be0b2-397e-45c9-8bc9-441b3b0be047",
+                    "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controller",
+                    "action": "VerticalMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70eb5729-c7e1-4502-8a63-9371cbe65ca1",
                     "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
@@ -105,7 +105,7 @@
                 },
                 {
                     "name": "",
-                    "id": "f0c2ae6f-ae84-47c3-9bd0-2ca396b34b73",
+                    "id": "9c0f178d-798b-4d33-b138-6df4fbc17579",
                     "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
@@ -116,7 +116,7 @@
                 },
                 {
                     "name": "",
-                    "id": "2b52fda1-6e23-474b-b40d-cdb9252072fb",
+                    "id": "3c8176a7-9804-4150-a746-db823401ef90",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
@@ -127,7 +127,7 @@
                 },
                 {
                     "name": "",
-                    "id": "f7e191bf-a225-4626-8e96-14412e189240",
+                    "id": "c16d7e5a-100c-4f52-abbf-a5a3f637cbd2",
                     "path": "<Gamepad>/buttonWest",
                     "interactions": "",
                     "processors": "",
@@ -138,23 +138,12 @@
                 },
                 {
                     "name": "",
-                    "id": "99167d1a-bdca-4946-8393-3ec248534cf8",
+                    "id": "ae75a23a-d67f-4c43-a642-e10609c9b133",
                     "path": "<Gamepad>/leftTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "Controller",
                     "action": "Block",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b34378ec-0e1e-48ef-a477-60862cdb6536",
-                    "path": "<Gamepad>/dpad/y",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Controller",
-                    "action": "VerticalMove",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -168,7 +157,7 @@
             "devices": [
                 {
                     "devicePath": "<Gamepad>",
-                    "isOptional": true,
+                    "isOptional": false,
                     "isOR": false
                 }
             ]
