@@ -17,6 +17,7 @@ public class Player1Actions : MonoBehaviour
     private AudioSource MyPlayer;
     public static bool Hits = false;
     public static bool FlyingJumpP1 = false;
+    private bool blocking = false;
 
 
     void Start()
@@ -208,6 +209,17 @@ public class Player1Actions : MonoBehaviour
         {
             animator.SetTrigger("Light Kick");
             Hits = false;
+        }
+    }
+
+    public void OnBlock()
+    {
+        if (Player1Layer0.IsTag("Motion"))
+        {
+            if (!blocking)
+                animator.SetTrigger("Block On");
+            else
+                animator.SetTrigger("Block Off");
         }
     }
 }
