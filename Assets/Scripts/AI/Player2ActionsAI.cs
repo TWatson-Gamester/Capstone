@@ -85,10 +85,10 @@ public class Player2ActionsAI : MonoBehaviour
                     animator.SetTrigger("Heavy Kick");
                     HitsAI = false;
                 }
-                if (Input.GetButtonDown("Block P2"))
+/*                if (Input.GetButtonDown("Block P2"))
                 {
                     animator.SetTrigger("Block On");
-                }
+                }*/
                 canAttack = false;
             }
         }

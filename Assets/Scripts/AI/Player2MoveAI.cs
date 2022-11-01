@@ -235,27 +235,27 @@ public class Player2MoveAI : MonoBehaviour
     {
         if (other.gameObject.CompareTag("FistLight"))
         {
-            animator.SetTrigger("Head React");
+            animator.SetTrigger("Light React");
             audioSource.clip = LightPunch;
             audioSource.Play();
             defend = Random.Range(0, 5);
         }
         if (other.gameObject.CompareTag("FistHeavy"))
         {
-            animator.SetTrigger("Big React");
+            animator.SetTrigger("Heavy React");
             audioSource.clip = HeavyPunch;
             audioSource.Play();
         }
         if (other.gameObject.CompareTag("KickLight"))
         {
-            animator.SetTrigger("Head React");
+            animator.SetTrigger("Light React");
             audioSource.clip = LightKick;
             audioSource.Play();
             defend = Random.Range(0, 5);
         }
         if (other.gameObject.CompareTag("KickHeavy"))
         {
-            animator.SetTrigger("Big React");
+            animator.SetTrigger("Heavy React");
             audioSource.clip = HeavyKick;
             audioSource.Play();
         }
