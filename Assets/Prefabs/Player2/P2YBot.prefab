@@ -1402,7 +1402,7 @@ AudioSource:
   m_GameObject: {fileID: 3908050736932737413}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 48f4a18714ac1004e886da4b3a848235, type: 2}
+  OutputAudioMixerGroup: {fileID: -8576618714237396516, guid: a27ea53e9f72a2442b13302520e50aa9, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.525
@@ -1682,7 +1682,7 @@ MonoBehaviour:
   col: {fileID: 4250631280959331211}
   DamageAmt: 0.1
   emitEffects: 0
-  ParticleType: P11
+  ParticleType: P13
   isPlayer1: 0
 --- !u!1 &4250631281102108055
 GameObject:
@@ -1744,7 +1744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   col: {fileID: 4250631281102108052}
   DamageAmt: 0.1
-  emitEffects: 0
+  emitEffects: 1
   ParticleType: P11
   isPlayer1: 0
 --- !u!1 &4250631281293267208
@@ -1807,8 +1807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   col: {fileID: 4250631281293267213}
   DamageAmt: 0.2
-  emitEffects: 0
-  ParticleType: P11
+  emitEffects: 1
+  ParticleType: P12
   isPlayer1: 0
 --- !u!1 &4250631282020578761
 GameObject:
@@ -1871,7 +1871,7 @@ MonoBehaviour:
   col: {fileID: 4250631282020578766}
   DamageAmt: 0.2
   emitEffects: 0
-  ParticleType: P11
+  ParticleType: P14
   isPlayer1: 0
 --- !u!1 &4250631282098304434
 GameObject:
@@ -1934,7 +1934,7 @@ MonoBehaviour:
   col: {fileID: 4250631282098304439}
   DamageAmt: 0.1
   emitEffects: 0
-  ParticleType: P11
+  ParticleType: P13
   isPlayer1: 0
 --- !u!1 &4250631282294827714
 GameObject:
@@ -1996,8 +1996,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   col: {fileID: 4250631282294827719}
   DamageAmt: 0.2
-  emitEffects: 0
-  ParticleType: P11
+  emitEffects: 1
+  ParticleType: P12
   isPlayer1: 0
 --- !u!1 &4250631282337756808
 GameObject:
@@ -2059,7 +2059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   col: {fileID: 4250631282337756813}
   DamageAmt: 0.1
-  emitEffects: 0
+  emitEffects: 1
   ParticleType: P11
   isPlayer1: 0
 --- !u!1 &4250631282365151726
@@ -2123,7 +2123,7 @@ MonoBehaviour:
   col: {fileID: 4250631282365151715}
   DamageAmt: 0.2
   emitEffects: 0
-  ParticleType: P11
+  ParticleType: P14
   isPlayer1: 0
 --- !u!1 &4558341024502695156
 GameObject:
@@ -7299,7 +7299,7 @@ GameObject:
   - component: {fileID: 5757804224088618394}
   m_Layer: 0
   m_Name: P2Left
-  m_TagString: P1Left
+  m_TagString: P2Left
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21403,7 +21403,7 @@ GameObject:
   - component: {fileID: 5757804224450883025}
   m_Layer: 0
   m_Name: P2Right
-  m_TagString: P1Right
+  m_TagString: P2Right
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

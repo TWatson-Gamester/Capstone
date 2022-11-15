@@ -72,17 +72,6 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "702f58ad-2c5c-48c1-9a79-b4e576304f9c",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Fighting",
-                    "action": "HorizontalMove",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "2d3febe5-6fed-4dd7-b370-297b7f8ad43c",
                     "path": "<Gamepad>/dpad/x",
                     "interactions": "",
@@ -105,8 +94,30 @@
                 },
                 {
                     "name": "",
+                    "id": "9e7ee3e1-a920-41fe-94ef-942a6df99242",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LightPunch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "f0c2ae6f-ae84-47c3-9bd0-2ca396b34b73",
                     "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controller",
+                    "action": "HeavyPunch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78e599bf-f913-41c2-a917-da01d8dd820a",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "Controller",
@@ -127,8 +138,30 @@
                 },
                 {
                     "name": "",
+                    "id": "6d0645c7-ca18-4bb0-8085-f283913be403",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controller",
+                    "action": "LightKick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "f7e191bf-a225-4626-8e96-14412e189240",
                     "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controller",
+                    "action": "HeavyKick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8865cb1c-4031-4c6c-8611-d02729972daa",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "Controller",
@@ -168,6 +201,16 @@
             "devices": [
                 {
                     "devicePath": "<Gamepad>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
                     "isOptional": true,
                     "isOR": false
                 }

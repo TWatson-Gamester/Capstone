@@ -90,6 +90,7 @@ public class Player2ActionsAI : MonoBehaviour
                     animator.SetTrigger("Block On");
                 }*/
                 canAttack = false;
+                RandomAttack();
             }
         }
 

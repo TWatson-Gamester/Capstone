@@ -229,6 +229,10 @@ public class Player2MoveAI : MonoBehaviour
         {
             BoxCollider.enabled = false;
         }
+        if (Player2Layer0.IsTag("React"))
+        {
+            BoxCollider.enabled = false;
+        }
     }
 
     private void OnTriggerEnter(Collider other)

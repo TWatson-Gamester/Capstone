@@ -174,7 +174,7 @@ public class Player1Move : MonoBehaviour
         {
             BoxCollider.enabled = false;
         }
-        if (Player1Layer0.IsTag("Sweep"))
+        if (Player1Layer0.IsTag("React"))
         {
             BoxCollider.enabled = false;
         }
