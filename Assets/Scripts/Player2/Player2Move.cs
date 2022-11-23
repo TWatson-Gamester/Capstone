@@ -91,7 +91,6 @@ public class Player2Move : MonoBehaviour
         //Horizontal Movement
         if (Player2Layer0.IsTag("Motion"))
         {
-            Time.timeScale = 1;
             if (Input.GetAxis("Horizontal Key 2") > 0)
             {
                 if(CanWalkRight)

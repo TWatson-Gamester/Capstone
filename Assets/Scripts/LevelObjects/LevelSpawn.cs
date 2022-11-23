@@ -4,13 +4,34 @@ using UnityEngine;
 
 public class LevelSpawn : MonoBehaviour
 {
-    public GameObject Player1Character;
-    public GameObject Player2Character;
+    public GameObject P1YBot;
+    public GameObject AIYBot1;
+    public GameObject AIYBot2;
+
+    public static int Player1Choice;
+    public static int Player2Choice;
+
     public Transform Player1Spawn;
     public Transform Player2Spawn;
     void Start()
     {
-        Instantiate(Player1Character, Player1Spawn.position, Player1Spawn.rotation);
-        Instantiate(Player2Character, Player2Spawn.position, Player2Spawn.rotation);
+        switch (Player1Choice)
+        {
+            case 1:
+                Instantiate(P1YBot, Player1Spawn.position, Player1Spawn.rotation);
+                break;
+            case 2:
+                Instantiate(AIYBot1, Player1Spawn.position, Player2Spawn.rotation);
+                break;
+        }
+        switch (Player2Choice)
+        {
+            case 1:
+                //Instantiate(P2YBot, Player2Spawn.position, Player1Spawn.rotation);
+                break;
+            case 2:
+                Instantiate(AIYBot2, Player2Spawn.position, Player2Spawn.rotation);
+                break;
+        }
     }
 }

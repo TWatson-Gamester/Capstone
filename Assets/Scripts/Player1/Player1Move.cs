@@ -92,7 +92,6 @@ public class Player1Move : MonoBehaviour
         //Horizontal Movement
         if (Player1Layer0.IsTag("Motion"))
         {
-            Time.timeScale = 1;
             if (Input.GetAxis("Horizontal") > 0)
             {
                 if(CanWalkRight == true)
@@ -221,7 +220,8 @@ public class Player1Move : MonoBehaviour
             FacingLeft = false;
             FacingRight = true;
             yield return new WaitForSeconds(0.15f);
-            Player1.transform.Rotate(0, -180, 0);
+            //Player1.transform.Rotate(0, -180, 0);
+            transform.rotation = Quaternion.AngleAxis(-180, Vector3.up);
             animator.SetLayerWeight(1, 0);
         }
     }
@@ -233,7 +233,8 @@ public class Player1Move : MonoBehaviour
             FacingLeft = true;
             FacingRight = false;
             yield return new WaitForSeconds(0.15f);
-            Player1.transform.Rotate(0, 180, 0);
+            //Player1.transform.Rotate(0, 180, 0);
+            transform.rotation = Quaternion.AngleAxis(180, Vector3.up);
             animator.SetLayerWeight(1, 1);
         }
     }

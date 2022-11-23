@@ -68,7 +68,7 @@ public class Player2TriggerAI : MonoBehaviour
                 if (emitEffects)
                 {
                     particleSystem.Play();
-                    Time.timeScale = 0.7f;
+                    //Time.timeScale = 0.7f;
                 }
                 Player2ActionsAI.HitsAI = true;
                 SaveScript.Player1Health -= DamageAmt;

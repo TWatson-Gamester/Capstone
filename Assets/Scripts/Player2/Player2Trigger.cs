@@ -54,7 +54,7 @@ public class Player2Trigger : MonoBehaviour
                 if (emitEffects)
                 {
                     particleSystem.Play();
-                    Time.timeScale = 0.7f;
+                    //Time.timeScale = 0.7f;
                 }
                 Player1Actions.Hits = true;
                 SaveScript.Player2Health -= DamageAmt;
@@ -68,7 +68,7 @@ public class Player2Trigger : MonoBehaviour
                 if (emitEffects)
                 {
                     particleSystem.Play();
-                    Time.timeScale = 0.7f;
+                    //Time.timeScale = 0.7f;
                 }
                 Player2Actions.HitsP2 = true;
                 SaveScript.Player1Health -= DamageAmt;

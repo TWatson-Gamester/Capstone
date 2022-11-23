@@ -86,16 +86,15 @@ public class Player2MoveAI : MonoBehaviour
         //Get Opponent's Position
         OppPosition = Opponent.transform.position;
 
-        if (!Player2ActionsAI.dazed)
+        if (!Player2ActionsAI.dazed && Time.timeScale == 1)
         {
             //Flip around to face opponent
-            if (OppPosition.x > Player2.transform.position.x)
+            if (OppPosition.x < Player2.transform.position.x)
             {
                 StartCoroutine(LeftIsTrue());
 
                 if (Player2Layer0.IsTag("Motion"))
                 {
-                    Time.timeScale = 1;
                     animator.SetBool("CanAttack", false);
                     if (OppDistance > AttackDistance)
                     {
@@ -129,13 +128,12 @@ public class Player2MoveAI : MonoBehaviour
                     }
                 }
             }
-            else if (OppPosition.x < Player2.transform.position.x)
+            else if (OppPosition.x > Player2.transform.position.x)
             {
                 StartCoroutine(RightIsTrue());
 
                 if (Player2Layer0.IsTag("Motion"))
                 {
-                    Time.timeScale = 1;
                     animator.SetBool("CanAttack", false);
                     if (OppDistance > AttackDistance)
                     {
@@ -278,7 +276,8 @@ public class Player2MoveAI : MonoBehaviour
             FacingLeftAI = false;
             FacingRightAI = true;
             yield return new WaitForSeconds(0.15f);
-            Player2.transform.Rotate(0, -180, 0);
+            //Player2.transform.Rotate(0, -180, 0);
+            transform.rotation = Quaternion.AngleAxis(-180, Vector3.up);
             animator.SetLayerWeight(1, 0);
         }
     }
@@ -290,7 +289,8 @@ public class Player2MoveAI : MonoBehaviour
             FacingLeftAI = true;
             FacingRightAI = false;
             yield return new WaitForSeconds(0.15f);
-            Player2.transform.Rotate(0, 180, 0);
+            //Player2.transform.Rotate(0, 180, 0);
+            transform.rotation = Quaternion.AngleAxis(180, Vector3.up);
             animator.SetLayerWeight(1, 1);
         }
     }

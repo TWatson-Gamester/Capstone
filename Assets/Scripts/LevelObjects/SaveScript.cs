@@ -10,4 +10,5 @@ public class SaveScript : MonoBehaviour
     public static float Player2Timer = 2f;
     public static int Player1Wins = 0;
     public static int Player2Wins = 0;
+    public static int RoundCount = 1;
 }
