@@ -2218,7 +2218,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: These are the models that were attempted to be used in this project.  Due
     to support for programs being shut down back in 2015 This is as far as they will
-    come to being used in a game.
+    come to being used in a game. These were made using a Kinect and a program that
+    took pictures and then made them into a 3D Model. Textures just aren't loading
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c1d22a47fa2ca2419579d5a026a6276, type: 2}
   m_sharedMaterial: {fileID: 5730952789519797161, guid: 1c1d22a47fa2ca2419579d5a026a6276, type: 2}
