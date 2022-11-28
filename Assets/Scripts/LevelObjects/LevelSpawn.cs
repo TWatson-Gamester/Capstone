@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class LevelSpawn : MonoBehaviour
 {
+    [Header("Player 1 Characters")]
     public GameObject P1YBot;
+    [Header("AI Characters")]
     public GameObject AIYBot1;
     public GameObject AIYBot2;
 
     public static int Player1Choice;
     public static int Player2Choice;
 
+    [Header("Spawn Points")]
     public Transform Player1Spawn;
     public Transform Player2Spawn;
     void Start()

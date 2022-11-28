@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class HealthBars : MonoBehaviour
 {
+    [Header("Images")]
     [SerializeField] Image P1Green;
     [SerializeField] Image P2Green;
     [SerializeField] Image P1Red;
@@ -24,6 +25,7 @@ public class HealthBars : MonoBehaviour
     [SerializeField] GameObject Player1WinText;
     [SerializeField] GameObject Player1LoseText;
 
+    [Header("Audio")]
     [SerializeField] AudioSource audioController;
     [SerializeField] AudioClip Round1Audio;
     [SerializeField] AudioClip Round2Audio;
@@ -33,9 +35,6 @@ public class HealthBars : MonoBehaviour
     [SerializeField] AudioClip FightAudio;
     [SerializeField] AudioClip PlayerWins;
     [SerializeField] AudioClip PlayerLost;
-
-    [SerializeField] GameObject Player1;
-    [SerializeField] GameObject Player2;
 
     private bool gameRunning = true;
 
@@ -135,8 +134,6 @@ public class HealthBars : MonoBehaviour
         if (SaveScript.Player1Wins == 3 || SaveScript.Player2Wins == 3) StartCoroutine(GameFinish());
         else
         {
-            Destroy(Player1);
-            Destroy(Player2);
             SceneManager.LoadScene("Level 1");
         }
     }
@@ -160,8 +157,6 @@ public class HealthBars : MonoBehaviour
         yield return new WaitForSeconds(4);
         gameRunning = false;
 
-        Destroy(Player1);
-        Destroy(Player2);
         SceneManager.LoadScene("MainMenu");
     }
 

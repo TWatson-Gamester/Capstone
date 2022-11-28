@@ -49,17 +49,17 @@ public class Player2TriggerAI : MonoBehaviour
     {
         if (isPlayer1)
         {
-/*            if (other.gameObject.CompareTag("Player2"))
+            if (other.gameObject.CompareTag("Player2"))
             {
                 if (emitEffects)
                 {
                     particleSystem.Play();
-                    Time.timeScale = 0.7f;
+                    //Time.timeScale = 0.7f;
                 }
                 Player1Actions.Hits = true;
                 SaveScript.Player2Health -= DamageAmt;
                 SaveScript.Player2Timer = 2f;
-            }*/
+            }
         }
         else
         {

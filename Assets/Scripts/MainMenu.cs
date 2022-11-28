@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [Header("Screens")]
     [SerializeField] GameObject mainMenu;
     [SerializeField] GameObject controlsMenu;
     [SerializeField] GameObject optionsMenu;
@@ -12,11 +13,12 @@ public class MainMenu : MonoBehaviour
     [SerializeField] GameObject gameModes;
     [SerializeField] GameObject characterSelect;
 
+    [Header("GameModes")]
     [SerializeField] GameObject player1Picker;
     [SerializeField] GameObject player2Picker;
     [SerializeField] GameObject fightTime;
 
-
+    private bool isAIMatch;
     private GameObject player1Character;
     private GameObject player2Character;
 
@@ -59,10 +61,11 @@ public class MainMenu : MonoBehaviour
         gameModes.SetActive(true);
     }
 
-    public void characterSelectorSet()
+    public void characterSelectorSet(bool isAIMatch)
     {
         gameModes.SetActive(false);
         characterSelect.SetActive(true);
+        this.isAIMatch = isAIMatch;
     }
 
     public void characterSelectToGameModes()
@@ -73,6 +76,7 @@ public class MainMenu : MonoBehaviour
 
     public void player1Pick(int choice)
     {
+        if (isAIMatch) choice++;
         LevelSpawn.Player1Choice = choice;
     }
 
