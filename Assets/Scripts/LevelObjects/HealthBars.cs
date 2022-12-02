@@ -108,6 +108,16 @@ public class HealthBars : MonoBehaviour
                 else if (SaveScript.Player2Health <= 0) SaveScript.Player1Wins++;
                 EndGame();
             }
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                SaveScript.Player1Health = 1;
+                SaveScript.Player2Health = 1;
+                SaveScript.RoundCount = 1;
+                SaveScript.Player1Wins = 0;
+                SaveScript.Player2Wins = 0;
+                SceneManager.LoadScene("MainMenu");
+            }
         }
 
     }
